@@ -3,13 +3,6 @@
 version = 3
 
 [[package]]
-name = "nexus-project"
-version = "0.1.0"
-dependencies = [
- "nexus-rt",
-]
-
-[[package]]
 name = "nexus-rt"
 version = "0.1.0"
 source = "git+https://github.com/nexus-xyz/nexus-zkvm.git#f6b50306ed751a5e9ce4813bc4e14bf8d9af9d10"
@@ -25,6 +18,13 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
+]
+
+[[package]]
+name = "nexus-tester"
+version = "0.1.0"
+dependencies = [
+ "nexus-rt",
 ]
 
 [[package]]
